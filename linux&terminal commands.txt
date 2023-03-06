@@ -1,0 +1,23 @@
+- creating the folder - mkdir 
+- listing the files  - ls
+- changing the directory - cd
+- going back to the directory - ..
+- finding the path - where
+- opening the file - open 
+- displaying value of some variable - echo
+* when the executable commands are given its going to check in - environment variables(path) 
+* any file starting with the '.' is a hidden file
+- seeing all the hidden files - ls -a
+- listing contents of any file - cat 
+* aliases are the shortcut commands which are used to reduce the usage of long commands
+- setting the environment variable - export MY_Path = "jaswanth" but doing this will not be permanent(valid for particular session)
+- printing the current working directory - pwd
+* single dot - current directory , double dot - previous directory
+- to know the more information - ls -l
+- listing the long details for hidden files - ls -al
+* there is 6 most commonly used  types of shells in linux (sh,csh,ksh,bash,zsh,fish)
+* the powershell and the command prompt are bit different from the shell. they are 
+  (cli) command-line interface.
+- listing all the recursive or the sub directories - ls R
+- creating a file - cat > Hello
+-
