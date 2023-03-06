@@ -4,7 +4,7 @@
 - going back to the directory - ..
 - finding the path - where
 - opening the file - open 
-- displaying value of some variable - echo
+- displaying value of some variable and also used for printing the value - echo
 * when the executable commands are given its going to check in - environment variables(path) 
 * any file starting with the '.' is a hidden file
 - seeing all the hidden files - ls -a
@@ -20,4 +20,8 @@
   (cli) command-line interface.
 - listing all the recursive or the sub directories - ls R
 - creating a file - cat > Hello
--
+- writing into new file - echo "Hello world" > file.txt
+- know information about a particular command - man "commandname"
+* tunnel is used to use the output from the previous file and use it to the next. it is denoted by "|".
+* 'tr' translates the characters
+- using the previous output to the next by - cat file.txt | tr a-z A-Z > upper.txt
