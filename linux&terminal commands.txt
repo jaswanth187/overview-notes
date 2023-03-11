@@ -25,3 +25,8 @@
 * tunnel is used to use the output from the previous file and use it to the next. it is denoted by "|".
 * 'tr' translates the characters
 - using the previous output to the next by - cat file.txt | tr a-z A-Z > upper.txt
+- for moving the files we use "mv" - mv names.txt random
+- changing the name of the file - mv file.txt newName.txt
+- move and rename at the same time - mv names.txt ../newNames.txt
+
+
